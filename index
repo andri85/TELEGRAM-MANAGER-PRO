@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram-Manager Pro V.6 - Manifesto Completo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0A0A0A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Montserrat', 'Roboto', sans-serif;
+            padding: 20px;
+        }
+
+        .manifesto {
+            width: 550px;
+            max-width: 100%;
+            background: #0A0A0A;
+            color: white;
+            border: 1px solid #00F0FF33;
+            box-shadow: 0 0 30px rgba(0, 240, 255, 0.2);
+            padding: 30px 25px 25px 25px;
+        }
+
+        .logo {
+            text-align: right;
+            font-size: 12px;
+            font-weight: bold;
+            color: #00F0FF;
+            background: #1A1A1A;
+            padding: 4px 12px;
+            border-radius: 20px;
+            display: inline-block;
+            width: auto;
+            margin-bottom: 15px;
+            font-family: monospace;
+        }
+
+        .titolo-principale {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .telegram {
+            font-family: 'Bebas Neue', 'Impact', sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: white;
+            text-shadow: 0 0 8px #00F0FF;
+        }
+        .manager-pro {
+            font-family: 'Bebas Neue', 'Impact', sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            color: #00F0FF;
+            letter-spacing: 1px;
+        }
+        .versione {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #CCCCCC;
+            margin-top: 5px;
+        }
+
+        .dashboard {
+            background: #1A1A1A;
+            border: 2px solid #00F0FF;
+            border-radius: 12px;
+            padding: 12px;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 11px;
+            color: #00F0FF;
+            text-align: center;
+        }
+        .dashboard pre {
+            font-family: 'Courier New', monospace;
+            font-size: 10px;
+            color: #00F0FF;
+            margin: 0;
+            white-space: pre-wrap;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px 18px;
+            margin: 15px 0;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .features span {
+            color: #00F0FF;
+            margin-right: 6px;
+            font-size: 13px;
+        }
+        .feature-item {
+            color: white;
+        }
+
+        .categoria {
+            color: #00F0FF;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 20px 0 10px 0;
+            border-bottom: 1px solid #00F0FF33;
+            padding-bottom: 5px;
+        }
+        .categoria:first-of-type {
+            margin-top: 0;
+        }
+
+        .prestazioni {
+            background: #00F0FF10;
+            border-left: 6px solid #00F0FF;
+            padding: 12px;
+            margin: 20px 0;
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+            color: #00F0FF;
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid #00F0FF33;
+            padding-top: 20px;
+        }
+        .cta-grande {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px;
+            font-weight: 800;
+            color: #00F0FF;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        .cta-small {
+            font-size: 12px;
+            color: #888;
+        }
+        .sito {
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px dashed #00F0FF;
+        }
+
+        hr {
+            border-color: #00F0FF22;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="manifesto">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div></div>
+            <div class="logo">TM PRO v.6</div>
+        </div>
+
+        <div class="titolo-principale">
+            <div class="telegram">TELEGRAM-MANAGER</div>
+            <div class="manager-pro">PRO</div>
+            <div class="versione">VERSIONE 6.0</div>
+        </div>
+
+        <div class="dashboard">
+            <pre>
+╔══════════════════════════════════════╗
+║       DASHBOARD PRO V.6              ║
+║  ██████████████████████████████████  ║
+║  • Multi-thread attivo               ║
+║  • Split automatico ON               ║
+║  • Database locale connesso          ║
+║  • TMDB integrato                    ║
+╚══════════════════════════════════════╝
+            </pre>
+        </div>
+
+        <!-- UPLOAD & DOWNLOAD -->
+        <div class="categoria">📤 UPLOAD / 📥 DOWNLOAD</div>
+        <div class="features">
+            <div class="feature-item"><span>⬆️</span> Upload multi-thread + split auto</div>
+            <div class="feature-item"><span>⬇️</span> Download multi-thread + filtro</div>
+            <div class="feature-item"><span>📊</span> REPORT UPLOAD (skip automatico)</div>
+            <div class="feature-item"><span>📊</span> REPORT DOWNLOAD (skip automatico)</div>
+        </div>
+
+        <!-- GESTIONE FILE -->
+        <div class="categoria">📁 GESTIONE FILE</div>
+        <div class="features">
+            <div class="feature-item"><span>🗑️</span> Elimina singoli/doppioni/per nome</div>
+            <div class="feature-item"><span>✏️</span> Aggiorna caption + FileBot</div>
+            <div class="feature-item"><span>📂</span> File Manager integrato</div>
+            <div class="feature-item"><span>💾</span> Aggiungi file al Database</div>
+            <div class="feature-item"><span>🖥️</span> Streaming VLC (no download)</div>
+            <div class="feature-item"><span>🔁</span> Forward messaggi tra canali</div>
+        </div>
+
+        <!-- ACCOUNT E IMPOSTAZIONI -->
+        <div class="categoria">👥 ACCOUNT & IMPOSTAZIONI</div>
+        <div class="features">
+            <div class="feature-item"><span>🔑</span> Login con credenziali XML</div>
+            <div class="feature-item"><span>⚙️</span> Salvataggio su JSON</div>
+            <div class="feature-item"><span>👥</span> Supporto multi-account</div>
+            <div class="feature-item"><span>💬</span> Chat interattiva real-time</div>
+            <div class="feature-item"><span>🤖</span> Comandi bot interattivi</div>
+        </div>
+
+        <!-- TELEGRAM MOUNT + TMDB -->
+        <div class="categoria">🔌 INTEGRAZIONI</div>
+        <div class="features">
+            <div class="feature-item"><span>🎬</span> TMDB (serie TV e film)</div>
+            <div class="feature-item"><span>🗄️</span> TELEGRAM MOUNT</div>
+            <div class="feature-item"><span>✏️</span> Rinomina su canale</div>
+            <div class="feature-item"><span>📝</span> Aggiorna report</div>
+        </div>
+
+        <div class="prestazioni">
+            🚀 MULTI-THREAD ACTIVATED &nbsp;|&nbsp; 🔄 SPLIT AUTOMATICO &nbsp;|&nbsp; 🎬 TMDB INTEGRATION
+        </div>
+
+        <div class="cta">
+            <div class="cta-grande">SCARICA ORA</div>
+            <div class="cta-small">Prova gratis 14 giorni – Nessuna carta</div>
+            <div class="cta-small" style="margin-top: 8px;">
+                <span class="sito">github.com/tmpro-v6</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
